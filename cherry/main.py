@@ -10,8 +10,8 @@ os.chdir(current_dir)
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = "0"
 np.set_printoptions(suppress=True)
 
-model = load_model("models/keras_model.h5", compile=False)
-class_names = open("models/labels.txt", "r").readlines()
+model = load_model("v2/models/keras_model.h5", compile=False)
+class_names = open("v2/models/labels.txt", "r").readlines()
 
 camera = cv2.VideoCapture(0)
 

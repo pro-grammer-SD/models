@@ -1,0 +1,7 @@
+screenshot
+fist_closed
+open_palm
+pointing_left
+pointing_right
+two
+no_gesture
